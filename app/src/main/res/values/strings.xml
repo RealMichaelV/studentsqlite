@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">School Education</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Short User at least 5 characters1</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="invalid_name">Please Enter Valid Name!</string>
+    <string name="invalid_lname">Please Enter a Valid Last name!</string>
+    <string name="invalid_familylabel">Please Enter A Valid Family name!</string>
+    <string name="Invalid_email">Please Enter a correct email</string>
+    <string name="Invalid_password"> At least 8 Character and one Caps and one special</string>
+    <string name="invalid_db">Please Enter MM/DD/YYYYY</string>
+    <string name="title_activity_students">Students</string>
+</resources>

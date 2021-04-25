@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <!--
+this is the home activity
+-->
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="40dp"
+        android:text="School of Education Panel"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--
+assigned id
+-->
+
+    <Button
+        android:id="@+id/students"
+        android:layout_width="232dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="308dp"
+        android:text="Add Student WaitingList"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--
+assigned id
+-->
+
+    <Button
+        android:id="@+id/waitlist"
+        android:layout_width="232dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="212dp"
+        android:text="View Students WaitingList"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <!--
+assigned id
+-->
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="232dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="120dp"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--
+   i created a button and assigned the id to logout
+   -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

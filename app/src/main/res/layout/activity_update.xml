@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:padding="30dp">
+    <!--
+this is the add activity
+-->
+
+    <EditText
+        android:id="@+id/name_input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:hint="Student Full Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/number_input2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <!--
+assigning ids
+-->
+
+    <EditText
+        android:id="@+id/course_input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="174dp"
+        android:ems="10"
+        android:hint="Course Waiting List"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <!--
+assigning ids
+-->
+
+    <EditText
+        android:id="@+id/number_input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="27dp"
+        android:ems="10"
+        android:hint="Student Id number"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/grade_input2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <!--
+assigning ids
+-->
+
+    <EditText
+        android:id="@+id/grade_input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Student Grade"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/grad_input2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <!--
+assigning ids
+-->
+
+    <EditText
+        android:id="@+id/grad_input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:hint="Estimated Graduation"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/course_input2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <!--
+assigning ids
+-->
+
+    <Button
+        android:id="@+id/UpdateButton"
+        android:layout_width="219dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginBottom="19dp"
+        android:background="#673AB7"
+        android:backgroundTint="#673AB7"
+        android:text="Update"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/deletebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <!--
+assigning ids
+-->
+
+    <Button
+        android:id="@+id/deletebutton"
+        android:layout_width="219dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginBottom="36dp"
+        android:background="#673AB7"
+        android:backgroundTint="#673AB7"
+        android:text="Delete"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <!--
+assigning ids
+-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
